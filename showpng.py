@@ -3,7 +3,7 @@ import os,sys
 import cgi
 import cgitb; cgitb.enable()
 
-# set HOME environment variable to a directory the httpd server can write to
+#-- set HOME environment variable to a directory the httpd server can write to
 os.environ[ 'HOME' ] = '/tmp/'
 
 import matplotlib
